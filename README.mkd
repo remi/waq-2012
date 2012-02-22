@@ -1,0 +1,9 @@
+## Installation
+
+    $ git clone git://remiprev@github.com/remiprev/waq-2012.git
+    $ mysql -e "CREATE DATABASE \`blogue\`"
+    $ bundle install
+    
+## Usage
+    $ bundle exec rackup
+    $ open http://localhost:9292
