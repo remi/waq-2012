@@ -1,0 +1,6 @@
+%ul
+  - @articles.each do |article|
+    %li
+      %h1
+        %a{ :href => "/articles/#{article.id}" }= article.title
+      = article.content
